@@ -1,0 +1,12 @@
+{
+  "app/page.tsx -> @/components/Portfolio": {
+    "id": "app/page.tsx -> @/components/Portfolio",
+    "files": [
+      "static/chunks/node_modules_next_dist_47afbe._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_d69902._.js",
+      "static/chunks/node_modules_670964._.js",
+      "static/chunks/_8039d6._.js",
+      "static/chunks/components_Portfolio_tsx_7964cf._.js"
+    ]
+  }
+}
