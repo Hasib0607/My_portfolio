@@ -237,7 +237,7 @@ export default function Hero() {
                   <img
                     src="/images/portrait-hero.png"
                     alt="Hasib Ahmed Soyad portrait"
-                    className="absolute bottom-0 left-2/3 h-[95%] w-auto max-w-none object-contain"
+                    className="absolute bottom-0 left-1/2 sm:left-[58%] lg:left-2/3 h-[82%] sm:h-[90%] lg:h-[95%] pl-10 w-auto max-w-none object-contain"
                     style={{ transform: 'translateX(-50%) scaleX(-1)' }}
                   />
                 </div>

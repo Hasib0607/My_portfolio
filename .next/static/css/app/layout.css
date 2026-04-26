@@ -657,6 +657,12 @@ video {
 .left-3\/4{
   left: 75%;
 }
+.left-2\/4{
+  left: 50%;
+}
+.left-1\/4{
+  left: 25%;
+}
 .z-10{
   z-index: 10;
 }
@@ -721,6 +727,12 @@ video {
 }
 .mt-auto{
   margin-top: auto;
+}
+.mr-10{
+  margin-right: 2.5rem;
+}
+.mr-20{
+  margin-right: 5rem;
 }
 .inline-block{
   display: inline-block;
@@ -820,6 +832,9 @@ video {
 }
 .h-\[95\%\]{
   height: 95%;
+}
+.h-\[82\%\]{
+  height: 82%;
 }
 .max-h-14{
   max-height: 3.5rem;
@@ -1329,6 +1344,15 @@ video {
 .pr-0{
   padding-right: 0px;
 }
+.pr-20{
+  padding-right: 5rem;
+}
+.pl-20{
+  padding-left: 5rem;
+}
+.pl-10{
+  padding-left: 2.5rem;
+}
 .text-left{
   text-align: left;
 }
@@ -1665,8 +1689,16 @@ html.lenis, html.lenis body {
 }
 @media (min-width: 640px){
 
+  .sm\:left-\[58\%\]{
+    left: 58%;
+  }
+
   .sm\:flex{
     display: flex;
+  }
+
+  .sm\:h-\[90\%\]{
+    height: 90%;
   }
 
   .sm\:max-w-\[360px\]{
@@ -1863,6 +1895,10 @@ html.lenis, html.lenis body {
     top: 6rem;
   }
 
+  .lg\:left-2\/3{
+    left: 66.666667%;
+  }
+
   .lg\:col-span-2{
     grid-column: span 2 / span 2;
   }
@@ -1889,6 +1925,14 @@ html.lenis, html.lenis body {
 
   .lg\:ml-auto{
     margin-left: auto;
+  }
+
+  .lg\:h-\[105\%\]{
+    height: 105%;
+  }
+
+  .lg\:h-\[95\%\]{
+    height: 95%;
   }
 
   .lg\:min-h-\[320px\]{
